@@ -1,7 +1,6 @@
 function Get-CommandResult ()
 {
     <#
-git
     .SYNOPSIS
     Returns a specific command result.
     .DESCRIPTION
