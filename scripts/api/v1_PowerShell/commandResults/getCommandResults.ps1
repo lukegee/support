@@ -1,7 +1,7 @@
 function Get-CommandResults ()
 {
 	<#
-	.SYNOPSIS
+    .SYNOPSIS
     Returns up to 1000 command results.
 
 	.DESCRIPTION
