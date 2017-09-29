@@ -26,7 +26,6 @@ function Get-CommandResult ()
     https://docs.jumpcloud.com/1.0/command-results/list-an-individual-command
 
     #>
-
     [CmdletBinding()]
     param
     (

@@ -22,7 +22,6 @@ function Get-CommandResults ()
     https://docs.jumpcloud.com/1.0/command-results/list-all-command-results
 
     #>
-
     [CmdletBinding()]
     param
     (
