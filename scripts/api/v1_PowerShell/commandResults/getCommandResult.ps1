@@ -20,10 +20,10 @@ function Get-CommandResult ()
     .LINK
     https://docs.jumpcloud.com/1.0/command-results/list-an-individual-command
 
-        #>
+    #>
     [CmdletBinding()]
-        param
-        (
+    param
+    (
         [Parameter(Mandatory)]
         [ValidateLength(40,40)]
         [string]$JCAPIKEY,
