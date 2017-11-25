@@ -68,6 +68,7 @@ curl \
   -H "x-api-key: ${apiKey}" \
   -d '{"networkSourceIp":"'"${newIp}"'"}' \
   "https://console.jumpcloud.com/api/radiusservers/${radiusId}"
+ echo `date` " - IP updated" && exit 0
 
 }
 
@@ -90,7 +91,7 @@ fi
 # Compare current to new
 
 if [[ ${currentIp} == ${newIp} ]]; then
-    echo "IP has not changed, have a nice day. ¯\_(ツ)_/¯" && exit 0
+    echo `date` " - IP has not changed, have a nice day. ¯\_(ツ)_/¯" && exit 0
 fi
 
 putRadius
